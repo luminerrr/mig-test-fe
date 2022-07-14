@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Sidebar from './components/sidebar/Sidebar';
+import Headbar from './components/headbar/Headbar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Sidebar />
+    <Headbar />
   </React.StrictMode>
 );
 

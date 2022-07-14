@@ -1,0 +1,38 @@
+.headbar-main{
+    display: flex;
+    left: 1rem;
+    top: 1rem;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: var(--bs-breadcrumb-divider, "x");
+}
+
+.list-item{
+    font-size: 0.7rem;
+}
+
+.headbar-profile{
+    display: flex;
+    align-self: flex-end;
+}
+
+.profile-container{
+    padding-bottom: 1rem;
+}
+
+.profile-icon{
+    height: 1rem;
+    padding-right: 1rem;
+}
+
+.profile-photo{
+    height: 1.5rem;
+    padding-right: 1rem;
+}
+
+.profile-name{
+    font-size: 0.8rem;
+    padding-right: 1rem;
+    text-decoration: none;
+}

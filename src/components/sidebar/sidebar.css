@@ -1,0 +1,27 @@
+.vertical-nav{
+    background-color: white;
+    height: 100%;
+    width: 5rem;
+    display: block;
+    text-align: center;
+    position: absolute;
+}
+
+.vertical-container{
+    background-color: white;
+}
+
+.logo{
+    padding-top: 2rem;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-icon:first-of-type{
+    padding-top: 3rem;
+}
+.nav-icon{
+    padding: 1rem;
+    width: 90%;
+    height: 90%;
+}
