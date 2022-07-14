@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Sidebar from './components/sidebar/Sidebar';
 import Headbar from './components/headbar/Headbar';
 import MainCard from './components/maincard/MainCard';
+import SideCard from './components/sidecard/SideCard';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,6 +15,7 @@ root.render(
     <Sidebar />
     <Headbar />
     <MainCard />
+    <SideCard />
   </React.StrictMode>
 );
 

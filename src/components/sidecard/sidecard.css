@@ -1,0 +1,95 @@
+.main-side-card{
+    width: 60rem;
+    position: absolute;
+    top: -49.2rem;
+    left: 43rem;
+}
+
+.side-card-wrapper{
+    padding-left: 2rem !important;
+}
+
+.side-card-header{
+    font-size: large;
+    font-weight: bold;
+    display: inline;
+}
+
+.row-wrapper{
+    padding-top: 2rem;
+}
+
+.green-text{
+    display: inline;
+    justify-self: end;
+    float: right;
+    color: #2E7A35;
+    text-decoration: none;
+}
+
+.green-text:hover{
+    color: #205626;
+}
+
+
+
+.green-box-1{
+
+    width: 1rem;
+    height: 5rem;
+    background-color: #1b8727;
+    border-radius: 7px;
+    margin: 1rem 1rem 1rem 0rem;
+    
+}
+
+.green-box-2{
+
+    width: 1rem;
+    height: 5rem;
+    background-color: #549f5d;
+    border-radius: 7px;
+    margin: 1rem 1rem 1rem 0rem;
+}
+
+.green-box-3{
+
+    width: 1rem;
+    height: 5rem;
+    background-color: #79bc80;
+    border-radius: 7px;
+    margin: 0rem 0rem 0rem 0rem;
+}
+
+.green-box-icon{
+    padding-top: 1.3rem;
+}
+
+.greenbox-text-wrapper{
+    display: inline-flex;
+    float: right;
+    justify-content: center;
+    max-width: 10rem;
+}
+
+.test-text{
+    display: block;
+    text-align: end;
+}
+
+.green-box-text-large{
+    /* padding-left: 5rem;
+    padding-bottom: 0 !important; */
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 0 !important;
+    font-weight: bold;
+    
+}
+
+.green-box-text{
+    color: white;
+    font-weight: lighter;
+    /* padding-left: 5rem; */
+
+}
