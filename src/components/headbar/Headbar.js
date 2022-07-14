@@ -19,7 +19,7 @@ function Headbar(){
                     <div className='profile-container'>
                         <Navbar.Text>
                             <a><img src={globe} className='profile-icon' alt='search-icon'/></a>
-                            <a><img src={globe} className='profile-icon' alt='search-icon'/></a>
+                            <a className='profile-icon'><img src={globe} className='profile-icon' alt='search-icon'/></a>
                             <a><img src={imgPhoto} className='profile-photo' alt='profile icon' /></a>
                             <a className='profile-name'>John Doe</a>
                         </Navbar.Text>

@@ -5,12 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Sidebar from './components/sidebar/Sidebar';
 import Headbar from './components/headbar/Headbar';
+import MainCard from './components/maincard/MainCard';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Sidebar />
     <Headbar />
+    <MainCard />
   </React.StrictMode>
 );
 

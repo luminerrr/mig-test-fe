@@ -1,0 +1,74 @@
+.main-card{
+    width: 20rem;
+    height: 5rem;
+    left: 19.5rem;
+}
+
+.card-picture-bg{
+    width: 8rem;
+    height: 9rem;
+    object-fit:cover;
+    overflow: hidden;
+}
+
+.card-head{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.card-sub-head{
+    text-align: center;
+    color: grey;
+    font-size: 0.8rem;
+}
+
+span.edit-profile{
+    padding-top: 1rem;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+}
+
+a.edit-profile{
+    text-decoration: none;
+    font-size: 80%;
+    color: #2E7A35;
+}
+
+a.edit-profile:hover{
+    color: #205626;
+}
+
+img.edit-profile{
+    height: 50%;
+    padding-right: 0.5rem;
+}
+
+.main-content{
+    padding-top: 3rem;
+    padding-left: 0.5rem;
+}
+
+.content-name{
+    color: grey;
+    font-size: 90%;
+    margin-bottom: 0.3rem;
+}
+
+
+a.content-contact{
+    text-decoration: none;
+    text-decoration: none;
+    font-size: 80%;
+    color: #2E7A35;
+}
+
+a.content-contact:hover{
+    color: #205626;
+}
+
+img.content-contact{
+    height: 1.2rem;
+    padding-right: 0.5rem;
+}
