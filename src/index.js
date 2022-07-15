@@ -7,6 +7,7 @@ import Sidebar from './components/sidebar/Sidebar';
 import Headbar from './components/headbar/Headbar';
 import MainCard from './components/maincard/MainCard';
 import SideCard from './components/sidecard/SideCard';
+import SubCard from './components/subcard/SubCard';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,6 +17,7 @@ root.render(
     <Headbar />
     <MainCard />
     <SideCard />
+    <SubCard />
   </React.StrictMode>
 );
 

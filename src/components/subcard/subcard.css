@@ -1,0 +1,70 @@
+.subcard{
+    top: 18rem;
+    left: 43rem;
+    width: 35rem;
+}
+
+.bank-title{
+    font-weight: bold !important;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    
+}
+
+.bank-wrapper{
+    padding: 1rem;
+}
+
+.add-bank{
+    float: right;
+    width: 13rem;
+    top: 1rem;
+    background-color: #2E7A35 !important;
+}
+
+.bank-picture{
+    display: inline;
+    vertical-align:text-top
+}
+
+.bank-name{
+    display: inline;
+    font-weight: bold;
+    padding-left: 1rem;
+    
+}
+.edit-icon{
+    display: inline;
+    float: inline-end;
+    vertical-align: text-top;
+}
+
+.trash-icon{
+    display: inline;
+    height: 20px;
+    padding-left: 1rem;
+}
+
+.bank-owner{
+    display: inline;
+    vertical-align: bottom;
+    float: inline-end;
+    position: relative;
+    right: 12.5rem;
+    bottom: 2.5rem;
+    color: gray;
+    font-size: small;
+}
+
+.bank-currency{
+    display: inline;
+    vertical-align: bottom;
+    position: relative;
+    right: 8.2rem;
+    color: gray;
+    font-size: small;
+}
+
+
+
