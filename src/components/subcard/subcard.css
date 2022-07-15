@@ -1,7 +1,7 @@
 .subcard{
     top: 18rem;
     left: 43rem;
-    width: 35rem;
+    width: 32rem;
 }
 
 .bank-title{
@@ -16,54 +16,56 @@
     padding: 1rem;
 }
 
+.bank-row{
+    padding-bottom: 1rem;
+
+}
+
 .add-bank{
     float: right;
-    width: 13rem;
+    width: 11rem;
     top: 1rem;
+    margin-right: 3.3rem;
     background-color: #2E7A35 !important;
+    font-size: 12px !important;
 }
 
-.bank-picture{
-    display: inline;
-    vertical-align:text-top
-}
+
 
 .bank-name{
-    display: inline;
     font-weight: bold;
     padding-left: 1rem;
     
 }
 .edit-icon{
-    display: inline;
-    float: inline-end;
-    vertical-align: text-top;
+    height: 20px;
+    float: right;
+    padding-right: 0.5rem;
 }
 
 .trash-icon{
-    display: inline;
     height: 20px;
-    padding-left: 1rem;
+    float: right;
 }
 
+
 .bank-owner{
-    display: inline;
     vertical-align: bottom;
-    float: inline-end;
-    position: relative;
-    right: 12.5rem;
-    bottom: 2.5rem;
+    margin-bottom: 0 !important;
     color: gray;
     font-size: small;
+    padding-top: 1rem;
 }
 
 .bank-currency{
-    display: inline;
     vertical-align: bottom;
-    position: relative;
-    right: 8.2rem;
+    
     color: gray;
     font-size: small;
+}
+
+.bank-detail-wrapper{
+    margin-left: 1rem;
 }
 
 

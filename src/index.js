@@ -8,6 +8,8 @@ import Headbar from './components/headbar/Headbar';
 import MainCard from './components/maincard/MainCard';
 import SideCard from './components/sidecard/SideCard';
 import SubCard from './components/subcard/SubCard';
+import RelasiCard from './components/relasicard/RelasiCard';
+import AktivitasCard from './components/aktivitascard/AktivitasCard';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -18,6 +20,8 @@ root.render(
     <MainCard />
     <SideCard />
     <SubCard />
+    <RelasiCard />
+    <AktivitasCard />
   </React.StrictMode>
 );
 

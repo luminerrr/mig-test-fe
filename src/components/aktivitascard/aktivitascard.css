@@ -1,0 +1,28 @@
+.aktivitas-card{
+    width: 33rem;
+    position: absolute;
+    top: -74.5rem;
+    left: 80rem;
+    min-height: 44.5rem;
+    max-height: 44.5rem;
+}
+
+.aktivitas-card-wrapper{
+    padding: 1rem;
+}
+
+.aktivitas-title{
+    font-weight: bold !important;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.aktivitas-list{
+    margin-bottom: 0.5rem !important;
+}
+
+.timestamp-aktivitas{
+    color: gray;
+    font-size: small;
+}

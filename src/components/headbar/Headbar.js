@@ -4,6 +4,8 @@ import Container from 'react-bootstrap/esm/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import globe from '../../assets/GlobeSimple.png'
 import imgPhoto from '../../assets/img_photo.png'
+import search from '../../assets/MagnifyingGlass.png';
+import bell from '../../assets/Bell.png'
 
 function Headbar(){
 
@@ -18,8 +20,8 @@ function Headbar(){
                 <Navbar.Text className='justify-content-end'>
                     <div className='profile-container'>
                         <Navbar.Text>
-                            <a><img src={globe} className='profile-icon' alt='search-icon'/></a>
-                            <a className='profile-icon'><img src={globe} className='profile-icon' alt='search-icon'/></a>
+                            <a><img src={search} className='profile-icon' alt='search-icon'/></a>
+                            <a className='profile-icon'><img src={bell} className='profile-icon' alt='search-icon'/></a>
                             <a><img src={imgPhoto} className='profile-photo' alt='profile icon' /></a>
                             <a className='profile-name'>John Doe</a>
                         </Navbar.Text>

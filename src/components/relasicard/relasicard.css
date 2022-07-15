@@ -1,0 +1,47 @@
+.relasi-card{
+    width: 32rem;
+    position: absolute;
+    left: 43rem;
+    top: -24rem;
+}
+
+.relasi-wrapper{
+    padding: 1rem;
+}
+
+.relasi-title{
+    font-weight: bold !important;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.add-relasi{
+    float: right;
+    text-decoration: none;
+    color:  #2E7A35;
+    font-weight: normal;
+    padding-right: 2rem;
+    font-size: 18px
+}
+
+.relasi-icon{
+    width: 46px;
+    vertical-align: middle;
+    padding-top: 1rem;
+}
+
+.add-relasi:hover{
+    color:  #215526;
+}
+
+.relasi-number{
+    margin-bottom: 0 !important;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.relasi-description{
+    color: gray;
+    
+}
